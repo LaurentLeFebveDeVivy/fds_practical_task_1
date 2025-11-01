@@ -1,0 +1,37 @@
+{
+    "knn": {
+        "f1_score": 0.731129149189626,
+        "params": {
+            "num_neighbors": 11,
+            "weights": "uniform"
+        }
+    },
+    "logreg": {
+        "f1_score": 0.7166651166580718,
+        "params": {
+            "c": 0.01
+        }
+    },
+    "random_forest": {
+        "f1_score": 0.7026513823291394,
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 30,
+            "max_features": "sqrt"
+        }
+    },
+    "xgboost": {
+        "f1_score": 0.7309580281931664,
+        "params": {
+            "learning_rate": 0.1,
+            "n_estimators": 200
+        }
+    },
+    "lgbm": {
+        "f1_score": 0.709981635114544,
+        "params": {
+            "learning_rate": 0.01,
+            "n_estimators": 500
+        }
+    }
+}

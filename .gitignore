@@ -2,3 +2,4 @@ venv
 __pycache__
 df_financials_train.pkl
 df_train.pkl
+*.joblib
