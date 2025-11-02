@@ -7,45 +7,31 @@
         }
     },
     "logreg": {
-        "f1_score": 0.7162938559927886,
+        "f1_score": 0.7166651166580718,
         "params": {
             "c": 0.01
         }
     },
     "random_forest": {
-        "f1_score": 0.7112595278718988,
+        "f1_score": 0.7026513823291394,
         "params": {
             "n_estimators": 100,
-            "max_depth": 15,
-            "max_features": "sqrt",
-            "min_samples_leaf": 2,
-            "min_samples_split": 8,
-            "max_samples": 0.9,
-            "criterion": "entropy",
-            "class_weight": "balanced_subsample"
+            "max_depth": 30,
+            "max_features": "sqrt"
         }
     },
     "xgboost": {
-        "f1_score": 0.7446650057588582,
+        "f1_score": 0.7309580281931664,
         "params": {
             "learning_rate": 0.1,
-            "n_estimators": 500
+            "n_estimators": 200
         }
     },
     "lgbm": {
-        "f1_score": 0.7470540437507617,
+        "f1_score": 0.709981635114544,
         "params": {
-            "learning_rate": 0.03,
-            "n_estimators": 600,
-            "num_leaves": 31,
-            "max_depth": -1,
-            "min_data_in_leaf": 20,
-            "feature_fraction": 0.8,
-            "bagging_fraction": 0.8,
-            "bagging_freq": 1,
-            "lambda_l1": 0.5,
-            "lambda_l2": 0.0,
-            "use_gpu": false
+            "learning_rate": 0.01,
+            "n_estimators": 500
         }
     }
 }
